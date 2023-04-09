@@ -16,7 +16,6 @@ body{
   background: rgb(0, 0, 58);
   color: white;
   text-align: center;
-  height: 50px;
   line-height: 50px;
 }
 
@@ -28,20 +27,20 @@ body{
 
 .aside{
   background-color: lightcyan;
-  width: 88px;
+  flex: 1;
   order:1;
   padding: 8px;
 }
 
 .nav{
   background-color: lightcyan;
-  width: 88px;
+  flex: 1;
   padding: 8px;
 }
 
 .main{
   background-color: navy;
-  flex: 4;
+  flex: 6;
   color: white;
   padding: 8px;
 }
